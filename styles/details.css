@@ -1,0 +1,104 @@
+/* .services is the Services Section on main.js */
+.services {
+    margin: 1rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.services ol {
+    padding-left: 5px;
+}
+
+.services li {
+    list-style: none;
+    float: left;
+    margin: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: darkgreen;
+    color: honeydew;
+}
+
+/* .container is the section holding attractions and guests in main.js */
+.container {
+    display: flex;
+}
+
+.attraction-title{
+    text-align: center;
+    color: honeydew;
+    background: darkgreen;
+    padding: 10px;
+    width: 200px;
+    height: 25px;
+}
+
+/* .list__atrractions is the Attractions Section on main.js */
+.list__attractions {
+    margin: 1rem;
+   font-size: 1rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.list__attractions ol {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 0;
+}
+
+.list__attractions li {
+    list-style: none;
+    font-size: 20px;
+}
+
+/* .attraction-card is the Attractions HTML on attractions.js */
+.attraction-card {
+    border: 1px solid green;
+    margin: 1em;
+    padding: 1em;
+    width: calc(33.33% - 2em);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.attraction-image img {
+    height: 5em;
+    width: auto;
+}
+
+/* .guests is the Guests Section on main.js */
+.guests {
+   margin: 1rem;
+   width: 30%;
+   text-align: center;
+}
+.guests ul {
+    padding-left: 0;
+    margin-top: 2em;
+}
+
+.guests li {
+    color: honeydew;
+   list-style: none;
+    background: #404040;;
+    padding: 10px;
+    width: 200px;
+    height: 15px;
+   
+}
+
+.guest-title {
+    color: honeydew;
+    background: darkgreen;
+    padding: 10px;
+    width: 200px;
+    height: 25px;
+}
